@@ -1,0 +1,7 @@
+input_list = ['San Jose', 'San Francisco', 'Santa Fe', 'Houston']
+
+y = list(filter(lambda x : x[0] == 'S', input_list))
+
+count = len(y) 
+
+print(count)
